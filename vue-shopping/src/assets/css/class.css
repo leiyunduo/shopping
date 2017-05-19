@@ -1,0 +1,159 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#class {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+}
+#class {
+  display: flex;
+  flex-direction: column;
+}
+#class .header {
+  width: 100%;
+  height: 4.6rem;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+#class .header .left img {
+  width: auto;
+  height: 2.6rem;
+  background: none;
+  margin: 10px 18px 0 0;
+}
+#class .header .right {
+  flex: 1;
+  position: relative;
+}
+#class .header .right img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+#class .header .right input {
+  margin: 6px 0;
+  width: 100%;
+  height: 3.4rem;
+  background: #ececec;
+  border: none;
+  outline: none;
+  padding-left: 35px;
+}
+#class .section {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+}
+#class .section::-webkit-scrollbar {
+  width: 0;
+}
+#class .section .left-list {
+  width: 8.8rem;
+  background: #fff;
+  border-right: 1px solid #eeeeee;
+}
+#class .section .left-list ul li {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  border-bottom: 1px solid #f6f6f6;
+  text-align: center;
+  line-height: 5rem;
+}
+#class .section .left-list ul li a {
+  font-size: 16px;
+  color: #000;
+}
+#class .section .left-list ul .active {
+  background: #f5f5f5;
+}
+#class .section .left-list ul .active a {
+  color: red;
+}
+#class .section .right-list {
+  flex: 1;
+}
+#class .section .right-list .top {
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+}
+#class .section .right-list .top ul {
+  display: flex;
+  flex-direction: row;
+}
+#class .section .right-list .top ul li {
+  width: 9.5rem;
+  height: 100%;
+  background: none;
+  text-align: center;
+  line-height: 3rem;
+}
+#class .section .right-list .top ul li a {
+  color: #000;
+}
+#class .section .right-list .wuman {
+  width: 100%;
+  height: 4rem;
+  background: #f5f5f5;
+  padding-left: 14px;
+  line-height: 4rem;
+}
+#class .section .right-list .wuman a {
+  color: #000;
+}
+#class .section .right-list .right-li {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+#class .section .right-list .right-li ul {
+  display: flex;
+  flex-direction: row;
+}
+#class .section .right-list .right-li ul li {
+  flex: 1;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#class .section .right-list .right-li ul li img {
+  width: auto;
+  height: 5.2rem;
+  background: none;
+  margin: 10px 0 15px 0;
+}
+#class .footer {
+  width: 100%;
+  height: 4.8rem;
+  background: #ffffff;
+  border-top: 1px solid #e2e2e2;
+}
+#class .footer ul {
+  display: flex;
+  flex-direction: row;
+}
+#class .footer ul li {
+  flex: 1;
+  text-align: center;
+}
+#class .footer ul li img {
+  width: auto;
+  height: 22px;
+  background: none;
+  margin: 6px 0;
+}
+#class .footer ul li .active {
+  color: red;
+}

@@ -1,0 +1,176 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#shoping {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+#shoping {
+  display: flex;
+  flex-direction: column;
+}
+#shoping .header {
+  width: 100%;
+  height: 4.7rem;
+  background: #f8f8f8;
+  line-height: 4.7rem;
+  border-bottom: 1px solid #ececec;
+  text-align: center;
+  position: relative;
+}
+#shoping .header p {
+  color: #2d2d2d;
+  font-size: 1.6rem;
+}
+#shoping .header span {
+  position: absolute;
+  top: 0.2rem;
+  right: 1.3rem;
+  font-size: 1.5rem;
+}
+#shoping .section {
+  flex: 1;
+  overflow-y: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+#shoping .section::-webkit-scrollbar {
+  width: 0;
+}
+#shoping .section .hai {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 0 1.2rem;
+  width: 100%;
+  height: 3.9rem;
+  background: none;
+  border-bottom: 1px solid #c4c4c4;
+  line-height: 3.9rem;
+}
+#shoping .section .hai img {
+  margin-right: 2rem;
+  margin-top: 1.2rem;
+  width: auto;
+  height: 1.3rem;
+  background: none;
+}
+#shoping .section .Shoppinggoods {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border-bottom: 10px solid #c4c4c4;
+  padding: 0 1.2rem;
+  width: 100%;
+  height: 14.5rem;
+  background: #ffffff;
+}
+#shoping .section .Shoppinggoods .anniu img {
+  margin-right: 1rem;
+  margin-top: 4.7rem;
+  width: auto;
+  height: 2.7rem;
+  background: none;
+}
+#shoping .section .Shoppinggoods .anniu2 dl {
+  display: flex;
+  flex-direction: row;
+  line-height: 2rem;
+}
+#shoping .section .Shoppinggoods .anniu2 dl dt {
+  flex: 1;
+}
+#shoping .section .Shoppinggoods .anniu2 dl dt img {
+  margin-top: 2rem;
+  margin-right: 1rem;
+  width: auto;
+  height: 9rem;
+  background: none;
+}
+#shoping .section .Shoppinggoods .anniu2 dl dd {
+  margin-top: 2rem;
+}
+#shoping .section .Shoppinggoods .anniu2 dl dd p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #000000;
+}
+#shoping .section .Shoppinggoods .anniu2 dl dd .py {
+  font-size: 1rem;
+  color: #C2C2C2;
+}
+#shoping .section .generations {
+  position: absolute;
+  bottom: 0rem;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border-top: 1px solid #e7e7e7;
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+}
+#shoping .section .generations .jiesuan {
+  text-align: center;
+  line-height: 5rem;
+  width: 8rem;
+  height: auto;
+  background: none;
+}
+#shoping .section .generations .jiesuan img {
+  width: auto;
+  height: 2.7rem;
+  background: none;
+}
+#shoping .section .generations .jiesuan2 {
+  flex: 1;
+}
+#shoping .section .generations .jiesuan2 p {
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#shoping .section .generations .jiesuan2 p .ys {
+  color: red;
+}
+#shoping .section .generations .jiesuan2 .yg {
+  color: #b8b8b8;
+}
+#shoping .section .generations .jiesuan3 {
+  width: 8rem;
+  height: auto;
+  background: #ff0000;
+  text-align: center;
+  line-height: 5rem;
+}
+#shoping .section .generations .jiesuan3 span {
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
+#shoping .footer {
+  width: 100%;
+  height: 4.8rem;
+  background: #ffffff;
+  border-top: 1px solid #e2e2e2;
+}
+#shoping .footer ul {
+  display: flex;
+  flex-direction: row;
+}
+#shoping .footer ul li {
+  flex: 1;
+  text-align: center;
+}
+#shoping .footer ul li img {
+  width: auto;
+  height: 22px;
+  background: none;
+  margin: 6px 0;
+}
+#shoping .footer ul li .active {
+  color: red;
+}

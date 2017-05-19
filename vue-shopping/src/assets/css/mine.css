@@ -1,0 +1,226 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#me {
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;
+}
+#me {
+  display: flex;
+  flex-direction: column;
+}
+#me .header {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100%;
+  height: 13rem;
+  background: #f13a07;
+  position: relative;
+}
+#me .header #buon {
+  width: 13rem;
+  height: 4rem;
+  background: #bd3005;
+  position: absolute;
+  top: 3.8rem;
+  left: 26%;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+}
+#me .header .upinstall {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+#me .header .upinstall .upin {
+  margin-right: 1rem;
+}
+#me .section {
+  flex: 1;
+  overflow-y: auto;
+}
+#me .section::-webkit-scrollbar {
+  width: 0;
+}
+#me .section .Miorder {
+  display: flex;
+  flex-direction: row;
+  padding: 0 2.3rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  margin-bottom: 0.1rem;
+  line-height: 4rem;
+  position: relative;
+}
+#me .section .Miorder span {
+  font-size: 1.6rem;
+}
+#me .section .Miorder img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+  position: absolute;
+  top: 1.2rem;
+  right: 2.3rem;
+}
+#me .section .logistics {
+  box-sizing: border-box;
+  width: 100%;
+  height: 6.5rem;
+  background: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#me .section .logistics ul {
+  display: flex;
+  flex-direction: row;
+}
+#me .section .logistics ul li {
+  flex: 1;
+}
+#me .section .logistics ul li p {
+  font-size: 1.4rem;
+}
+#me .section .logistics ul li img {
+  margin-top: 1.2rem;
+  margin-bottom: 0.7rem;
+  width: auto;
+  height: 2.3rem;
+  background: none;
+}
+#me .section .gift {
+  width: 100%;
+  height: 6.5rem;
+  background: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+#me .section .gift .ling {
+  line-height: 2rem;
+  margin-top: 1.6rem;
+}
+#me .section .gift ul {
+  display: flex;
+  flex-direction: row;
+}
+#me .section .gift ul li {
+  flex: 1;
+}
+#me .section .gift ul li p {
+  font-size: 1.4rem;
+}
+#me .section .gift ul li img {
+  margin-top: 1.2rem;
+  margin-bottom: 0.7rem;
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+#me .section .housekeeper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 2.3rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  margin-bottom: 1rem;
+  line-height: 4rem;
+  position: relative;
+}
+#me .section .housekeeper span {
+  font-size: 1.6rem;
+}
+#me .section .housekeeper img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+  position: absolute;
+  top: 1.2rem;
+  right: 2.3rem;
+}
+#me .section .favorite {
+  width: 100%;
+  height: 6.5rem;
+  background: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+#me .section .favorite ul {
+  display: flex;
+  flex-direction: row;
+}
+#me .section .favorite ul li {
+  flex: 1;
+}
+#me .section .favorite ul li p {
+  font-size: 1.4rem;
+}
+#me .section .favorite ul li img {
+  margin-top: 1.2rem;
+  margin-bottom: 0.7rem;
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+#me .section .Member {
+  width: 100%;
+  height: 6.5rem;
+  background: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+#me .section .Member ul {
+  display: flex;
+  flex-direction: row;
+}
+#me .section .Member ul li {
+  flex: 1;
+}
+#me .section .Member ul li p {
+  font-size: 1.4rem;
+}
+#me .section .Member ul li img {
+  margin-top: 1.2rem;
+  margin-bottom: 0.7rem;
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+#me .footer {
+  width: 100%;
+  height: 4.8rem;
+  background: #ffffff;
+  border-top: 1px solid #e2e2e2;
+}
+#me .footer ul {
+  display: flex;
+  flex-direction: row;
+}
+#me .footer ul li {
+  flex: 1;
+  text-align: center;
+}
+#me .footer ul li img {
+  width: auto;
+  height: 22px;
+  background: none;
+  margin: 6px 0;
+}
+#me .footer ul li .active {
+  color: red;
+}
